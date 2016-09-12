@@ -1,0 +1,59 @@
+---
+title: "Homework Week 1"
+author: "Rachel LaBella"
+date: "September 8, 2016"
+output: html_document
+---
+**Question 1**
+```{r vector, echo=TRUE}
+my_vec<-runif(100, min=0, max=100)
+str(my_vec)
+summary(my_vec)
+```
+
+Str function tells me that my vector has 100 randomly sorted numbers in it.
+Summary lets me know that my minimum number is 1.727, my average is 48.170, and my max is 98.308.  
+Str lists the numbers in a random assortment while summary answers specific questions about your vector like the mean, min, and max.  
+
+**Question 2**
+
+``` {r histogram, echo=TRUE}
+hist(my_vec)
+```
+
+My histogram shows me which set of numbers are occuring with what frequencies in my vector.  
+
+The help document about hist states that the height of the rectangle is proportional to the number of points falling in the cell. 
+
+**Question 3**
+
+``` {r cars, echo=TRUE}
+data(mtcars)
+class(mtcars)
+str(mtcars)
+summary(mtcars)
+```
+
+Class tells me that the mtcars is classified as a data frame.
+Str shows me that the data frame consists of 32 rows and 11 columns.
+There are 11 different variables (columns) for each of the 32 data points or rows.  
+
+Summary shows the minimum, 1st quartile, median, mean, 3rd quartile, and max data points for each column or variable.  
+
+There are 352 data points total. Each of the variables has a different data range. 
+
+**Question 4**
+
+The data frame consisted of Motor Trend Car Road Tests. The data was extracted from the 1974 *Motor Trend* magazine and the variables were different aspects of car design and performance. 
+
+**Question 5**
+
+I have not yet begun to work towards a project. I have been working on Ron's mussel distribution research these past few days but I am still just on the surface of knowing the full details of the project.   
+
+Personally I am really interested in fish and sharks. There are a lot of papers and resources out on White shark migration especially in Cape Cod in the past 5 years. Greg Skomal does all of this research through Ocearch out of Woods Hole. I would love to do my project on analyzing their migratory patters if there is enough information to draw from. I can also pull in other species that summer in the Northeast and winter in  the south.   
+
+Here are a few questions that I may be able to answer:  
+Are warming waters causing early shark migrations?  
+Are stricter fishing practices increasing shark populations?
+
+
